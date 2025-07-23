@@ -1,0 +1,13 @@
+a=int(input("Enter the 1st number:"))
+b=int(input("Enter the 2nd number:"))
+c=int(input("Enter the 3rd number:"))
+
+
+if a>b and a>c:
+    print(f"1st number which is {a} is largest number")
+
+elif b>a and b>c:
+    print(f"2nd number {b} is largest number")
+
+else:
+    print(f"3rd number which is {c} is largest number")
