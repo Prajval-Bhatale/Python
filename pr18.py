@@ -1,0 +1,7 @@
+n = int(input("Enter the limit up to which you want the Fibonacci series: "))
+
+a, b = 0, 1
+
+while a <= n:
+    print(a, end=" ")
+    a, b = b, a + b
