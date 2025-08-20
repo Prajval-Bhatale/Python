@@ -1,0 +1,16 @@
+string = "these are the program of the string function"
+str1 = "Prajval"
+print(string.capitalize())
+print(string.find("the"))
+print(str1.endswith("tion"))
+print(len(str1))
+print(string.count("t"))
+print(string.find("fun"))
+print(string.replace("t","r"))
+print(string.upper())
+print(string.lower())
+print(string.title())
+print(string.index("the"))
+print(string[2:20])
+print(str1.isalpha())
+print(str1.isdigit())
